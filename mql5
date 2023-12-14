@@ -1,0 +1,114 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                               Di Napoli Thrust Scanner MT4 |
+//|                                       Developer's site: forexroboteasy.com |
+//|                                         Development: Forex Robot Easy Team |
+//|                                                                  |
+//|                                           Terms of Reference for Writing Code |
+//|                                                                     |
+//| 1. Develop code for the Di Napoli Thrust Scanner MT4 indicator. |
+//| 2. Implement the ability to identify the Dinapoli thrust pattern across multiple timeframes (W1, D1, H4, H1, M30, M15, and M5). |
+//| 3. Allow customization of the indicator by providing the ability to choose the number of bars required above/below the displaced moving average (DMA) to define thrust. |
+//| 4. Ensure the indicator can be used for all markets, including forex, stocks, and commodities. |
+//| 5. Create a user-friendly interface for easy navigation and interaction with the indicator. |
+//| 6. Develop the necessary trading functions to analyze multiple markets simultaneously and provide a comprehensive view of potential trading opportunities. |
+//| 7. Ensure the code meets all necessary coding standards and best practices. |
+//| 8. Test the code thoroughly to ensure accurate and reliable results. |
+//| 9. Provide documentation and instructions for installing and using the Di Napoli Thrust Scanner MT4 indicator. |
+//| 10. Deliver the completed code within the agreed-upon timeline. |
+//+------------------------------------------------------------------+
+
+#property copyright 'Forex Robot Easy Team'
+#property link      'forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Custom indicator initialization function |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Add code for custom indicator initialization here
+
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Custom indicator deinitialization function |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Add code for custom indicator deinitialization here
+}
+
+//+------------------------------------------------------------------+
+//| Custom indicator iteration function |
+//+------------------------------------------------------------------+
+int OnCalculate(const int rates_total,
+                const int prev_calculated,
+                const datetime &time[],
+                const double &open[],
+                const double &high[],
+                const double &low[],
+                const double &close[],
+                const long &tick_volume[],
+                const long &volume[],
+                const int &spread[])
+{
+   // Add code for custom indicator calculation here
+
+   return(rates_total);
+}
+
+//+------------------------------------------------------------------+
+//| Custom trading function for analyzing multiple markets |
+//+------------------------------------------------------------------+
+void AnalyzeMarkets()
+{
+   // Add code for analyzing multiple markets here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for trading opportunities |
+//+------------------------------------------------------------------+
+void FindTradingOpportunities()
+{
+   // Add code for finding trading opportunities here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for testing the code |
+//+------------------------------------------------------------------+
+void TestCode()
+{
+   // Add code for testing the code here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for installing and using the indicator |
+//+------------------------------------------------------------------+
+void InstallIndicator()
+{
+   // Add code for installing and using the indicator here
+}
+
+//+------------------------------------------------------------------+
+//| Custom function for delivering the completed code |
+//+------------------------------------------------------------------+
+void DeliverCode()
+{
+   // Add code for delivering the completed code here
+}
+
+//+------------------------------------------------------------------+
+//| Main program entry point |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   // Call the necessary functions to fulfill the terms of reference
+   AnalyzeMarkets();
+   FindTradingOpportunities();
+   TestCode();
+   InstallIndicator();
+   DeliverCode();
+
+   // Add any additional code or logic here
+}
